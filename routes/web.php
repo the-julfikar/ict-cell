@@ -18,6 +18,14 @@ Route::get('/', function () {
 });
 
 //Home Page
-Route::get('/home', function () {
+Route::get('/ict-cell', function () {
     return view('home');
+});
+
+Route::get('/cell-complain', function () {
+    return view('complain');
+});
+
+Route::get('/cell-services', function () {
+    return view('services');
 });

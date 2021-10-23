@@ -14,6 +14,13 @@
 
     <!-- Custom Stylesheets for the Page-->
     <style type="text/css">
+        body{
+        //background-image: url({{url('/imgs/bg-img_1280.jpg')}});
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+
         .dropdown:hover .dropdown-menu {
             display: block;
         }
@@ -21,6 +28,11 @@
         .navbar-nav>li {
             padding-right: 10px;
         }
+
+        .fl_margin{
+            margin-top: -10px
+        }
+
     </style>
 
     <title>ICT Cell-RUET</title>
@@ -52,18 +64,18 @@
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <!-- me-auto : ms-auto | style="margin-left: auto" -->
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a> <!-- nav-link active -->
+                            <a class="nav-link active" aria-current="page" href="/ict-cell">Home</a> <!-- nav-link active -->
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Complains</a>
+                            <a class="nav-link" href="/cell-complain">Complains</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Applications</a>
+                            <a class="nav-link" href="#">Services</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                Digi Corner
+                                Digital Corner
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Notice</a></li>
@@ -79,7 +91,6 @@
                         </li>
                     </ul>
                     <form class="d-flex">
-                        <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
                         <button class="btn btn-outline-success me-2" type="submit">Admin Console</button>
                     </form>
 
@@ -89,9 +100,9 @@
     </div>
 
     <!-- Identity Dashboard -->
-    <div class="container lead" style="margin-top: 50px">
+    <div class="container lead" style="margin-top: 40px">
         <div class="row">
-            <p class="fw-lighter text-center h2">Current Members of ICT Cell, RUET</p>
+            <p class="fw-lighter text-center h2">Information and Communication Technology CELL (ICT CELL) - RUET</p>
         </div>
 
         <div class="row mt-3">
@@ -144,10 +155,10 @@
                                 </cite>
                                 <br>
                                 <br>
-                                <cite>Mail: director@ictcell.ruet.ac.bd | a.mamun@cse.ruet.ac.bd |
+                                <cite><i class="bi bi-google"></i> director@ictcell.ruet.ac.bd | a.mamun@cse.ruet.ac.bd |
                                     almamun00350@gmail.com</cite>
                                 <br>
-                                <cite>Mobile: +8801712622764</cite>
+                                <cite><i class="bi bi-phone"></i> +8801712622764</cite>
                             </figcaption>
                         </figure>
                     </div>
@@ -170,10 +181,10 @@
                                         </cite>
                                         <br>
                                         <br>
-                                        <cite>Mail: julfikar.islam@ictcell.ruet.ac.bd |
+                                        <cite><i class="bi bi-google"></i> julfikar.islam@ictcell.ruet.ac.bd |
                                             julfikar.islam.khan@gmail.com</cite>
                                         <br>
-                                        <cite>Mobile: +8801833182066</cite>
+                                        <cite><i class="bi bi-phone"></i> +8801833182066</cite>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -193,9 +204,9 @@
                                         </cite>
                                         <br>
                                         <br>
-                                        <cite>Mail: manirul.islam@ictcell.ruet.ac.bd | monirul.ruet12@gmail.com</cite>
+                                        <cite><i class="bi bi-google"></i> manirul.islam@ictcell.ruet.ac.bd | monirul.ruet12@gmail.com</cite>
                                         <br>
-                                        <cite>Mobile: +8801765707808</cite>
+                                        <cite><i class="bi bi-phone"></i> +8801765707808</cite>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -215,13 +226,13 @@
                                         <br>
                                         <cite>Member, IEB
                                             <br>
-                                            B. Sc. Engr. (CSE), KUET
+                                            B. Sc. Engr. (CSE), RUET
                                         </cite>
                                         <br>
                                         <br>
-                                        <cite>Mail: ashif.amin@ictcell.ruet.ac.bd | ashif.ruet@gmail.com</cite>
+                                        <cite><i class="bi bi-google"></i> ashif.amin@ictcell.ruet.ac.bd | ashif.ruet@gmail.com</cite>
                                         <br>
-                                        <cite>Mobile: +8801818301135</cite>
+                                        <cite><i class="bi bi-phone"></i> +8801818301135</cite>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -241,9 +252,9 @@
                                         </cite>
                                         <br>
                                         <br>
-                                        <cite>Mail: saumik.sarkar@ictcell.ruet.ac.bd | saumik.sr29@gmail.com</cite>
+                                        <cite><i class="bi bi-google"></i> saumik.sarkar@ictcell.ruet.ac.bd | saumik.sr29@gmail.com</cite>
                                         <br>
-                                        <cite>Mobile: +8801770702027</cite>
+                                        <cite><i class="bi bi-phone"></i> +8801770702027</cite>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -267,9 +278,9 @@
                                         </cite>
                                         <br>
                                         <br>
-                                        <cite>Mail: shahnewaz.uddin@ictcell.ruet.ac.bd | shahnewaz20@gmail.com</cite>
+                                        <cite><i class="bi bi-google"></i> shahnewaz.uddin@ictcell.ruet.ac.bd | shahnewaz20@gmail.com</cite>
                                         <br>
-                                        <cite>Mobile: +8801613285768</cite>
+                                        <cite><i class="bi bi-phone"></i> +8801613285768</cite>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -281,6 +292,66 @@
             <div class="col-1"></div>
         </div>
     </div>
+
+    <!-- Footers -->
+    <div class="container lead" style="margin-top: 40px;">
+        <div class="d-flex justify-content-between">
+            <div style="margin-top: -8px">
+                <p class="text-center fw-lighter fs-3">Rajshahi University of<br>Engineering & Technology (RUET)</p>
+                <div class="text-center">
+                    <img src="{{url('/imgs/ruet-hd.png')}}" width="100" height="100" alt="RUET">
+                </div>
+            </div>
+
+            <div>
+                <p class="font-monospace">Contacts</p>
+                <p class="fw-light fs-6">Central Computer Center (L-3) <br> Rajshahi University of Engineering & Technology (RUET) <br> Rajshahi-6204 <br>
+                <i class="bi bi-google"></i> team@ictcell.ruet.ac.bd | ict.cell.ruet@gmail.com<br>
+                <i class="bi bi-clock-history"></i> 09:00 AM - 05:00 PM</p>
+            </div>
+
+            <div>
+                <p class="font-monospace">Featured Links</p>
+                <p class="fw-light fs-6"><a href="#" class="link-secondary">Honorable Vice-Chancellor</a></p>
+                <p class="fw-light fs-6 fl_margin"><a href="#" class="link-secondary">Vice-Chancellor's Office</a></p>
+                <p class="fw-light fs-6 fl_margin"><a href="#" class="link-secondary">Registrar's Office</a></p>
+                <p class="fw-light fs-6 fl_margin"><a href="#" class="link-secondary">Comptroller's Office</a></p>
+                <p class="fw-light fs-6 fl_margin"><a href="#" class="link-secondary">Directorate of Student's Welfare</a></p>
+            </div>
+
+            <div>
+                <p class="font-monospace">Social Links</p>
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <a href="#" class=""><i class="bi bi-facebook"></i></a>
+                    </div>
+
+                    <div>
+                        <a href="#" class=""><i class="bi bi-twitter"></i></a>
+                    </div>
+
+                    <div>
+                        <a href="#" class=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+
+                    <div>
+                        <a href="#" class=""><i class="bi bi-house-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3 fw-light fst-italic" style="background-color: rgba(0, 0, 0, 0.2);">
+          ©2021 Copyright: Developed & maintainted by <p class="fw-bold">ICT Cell-RUET.</p>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
 </body>
 
 </html>
