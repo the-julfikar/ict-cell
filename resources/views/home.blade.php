@@ -70,7 +70,7 @@
                             <a class="nav-link" href="/cell-complain">Complains</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="/cell-services">Services</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -306,7 +306,8 @@
             <div>
                 <p class="font-monospace">Contacts</p>
                 <p class="fw-light fs-6">Central Computer Center (L-3) <br> Rajshahi University of Engineering & Technology (RUET) <br> Rajshahi-6204 <br>
-                <i class="bi bi-google"></i> team@ictcell.ruet.ac.bd | ict.cell.ruet@gmail.com<br>
+                <i class="bi bi-google"></i> team@ictcell.ruet.ac.bd | complain@ictcell.ruet.ac.bd<br>
+                <i class="bi bi-telephone-inbound-fill"></i> Ext-256<br>
                 <i class="bi bi-clock-history"></i> 09:00 AM - 05:00 PM</p>
             </div>
 

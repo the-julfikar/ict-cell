@@ -152,7 +152,7 @@
     </div>
 
     <!-- Footers -->
-    <div class="container lead" style="margin-top: 40px;">
+    <div class="container lead" style="margin-top: 50px;">
         <div class="d-flex justify-content-between">
             <div style="margin-top: -8px">
                 <p class="text-center fw-lighter fs-3">Rajshahi University of<br>Engineering & Technology (RUET)</p>
@@ -166,6 +166,7 @@
                 <p class="fw-light fs-6">Central Computer Center (L-3) <br> Rajshahi University of Engineering &
                     Technology (RUET) <br> Rajshahi-6204 <br>
                     <i class="bi bi-google"></i> team@ictcell.ruet.ac.bd | ict.cell.ruet@gmail.com<br>
+                    <i class="bi bi-telephone-inbound-fill"></i> Ext-256<br>
                     <i class="bi bi-clock-history"></i> 09:00 AM - 05:00 PM
                 </p>
             </div>
