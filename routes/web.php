@@ -14,12 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    //return view('welcome');
+    return view('home');
 });
 
 //Home Page
 Route::get('/ict-cell', function () {
     return view('home');
+});
+
+Route::get('/cell', function () {
+    return view('main');
 });
 
 Route::get('/cell-complain', function () {

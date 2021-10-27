@@ -1,0 +1,19 @@
+body{
+    /*background-image: url('/imgs/bg-img_1280.jpg'); */
+    /*background-color: red;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar-nav>li {
+        padding-right: 10px;
+    }
+
+    .fl_margin{
+        margin-top: -10px
+    }
