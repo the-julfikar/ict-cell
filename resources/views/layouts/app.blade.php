@@ -46,18 +46,18 @@
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <!-- me-auto : ms-auto | style="margin-left: auto" -->
                         <li class="nav-item">
-                            <a class="nav-link active" id="jq-nav-home" aria-current="page" href="/ict-cell">Home</a>
+                            <a class="nav-link active" id="jq-nav-home" aria-current="page" href="/ict-cell"><i class="bi bi-house-door"></i> Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="jq-nav-complain" href="/cell-complain">Complains</a>
+                            <a class="nav-link" id="jq-nav-complain" href="/cell-complain"><i class="bi bi-shield-check"></i> Complains</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="jq-nav-service" href="/cell-services">Services</a>
+                            <a class="nav-link" id="jq-nav-service" href="/cell-services"><i class="bi bi-app-indicator"></i> Services</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                Digital Corner
+                                <i class="bi bi-menu-app-fill"></i> Digital Corner
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Notice</a></li>
@@ -72,10 +72,14 @@
                             </ul>
                         </li>
                     </ul>
+                    
                     <form class="d-flex">
-                        <button class="btn btn-outline-success me-2" type="submit">Admin Console</button>
+                        <!-- <button class="btn btn-outline-success me-2" type="submit">Admin Console</button> -->
+                        <button type="button" class="btn btn-outline-success me-2">
+                            <i class="bi bi-person-bounding-box"></i>  Admin Console
+                        </button>
                     </form>
-
+                    
                 </div>
             </div>
         </nav>
