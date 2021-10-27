@@ -56,3 +56,21 @@
 </div>
 
 @endsection
+
+<!-- Jquery -->
+@section('scripts')
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+    
+    $('#jq-nav-home').removeClass('active');
+    $('#jq-nav-complain').removeClass('active');
+    $('#jq-nav-service').addClass('active');
+    $('#navbarDropdown').removeClass('active');
+
+    });
+
+</script>
+    
+@endsection

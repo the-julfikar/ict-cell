@@ -24,6 +24,9 @@
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
     </script>
 
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
     <!-- Nav Bar -->
     <div class="container lead">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -43,13 +46,13 @@
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <!-- me-auto : ms-auto | style="margin-left: auto" -->
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/ict-cell">Home</a>
+                            <a class="nav-link active" id="jq-nav-home" aria-current="page" href="/ict-cell">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/cell-complain">Complains</a>
+                            <a class="nav-link" id="jq-nav-complain" href="/cell-complain">Complains</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/cell-services">Services</a>
+                            <a class="nav-link" id="jq-nav-service" href="/cell-services">Services</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -139,6 +142,8 @@
         </div>
         <!-- Copyr -->
     </footer>
+
+    @yield('scripts')
 
 </body>
 

@@ -149,3 +149,21 @@
 </div>
 
 @endsection
+
+<!-- Jquery -->
+@section('scripts')
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+    
+    $('#jq-nav-home').removeClass('active');
+    $('#jq-nav-complain').addClass('active');
+    $('#jq-nav-service').removeClass('active');
+    $('#navbarDropdown').removeClass('active');
+
+    });
+
+</script>
+    
+@endsection

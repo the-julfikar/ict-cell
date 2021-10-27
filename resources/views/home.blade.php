@@ -198,3 +198,21 @@
     </div>
 </div>
 @endsection
+
+<!-- Jquery -->
+@section('scripts')
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+    
+    $('#jq-nav-home').addClass('active');
+    $('#jq-nav-complain').removeClass('active');
+    $('#jq-nav-service').removeClass('active');
+    $('#navbarDropdown').removeClass('active');
+
+    });
+
+</script>
+    
+@endsection
