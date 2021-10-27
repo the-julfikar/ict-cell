@@ -1,6 +1,22 @@
 @extends('layouts.app')
 
 @section('contents')
+
+<div class="container">
+    <div class="row mt-3">
+        <div class="col-2"></div>
+        <div class="col-8 d-flex justify-content-start">
+            <div>
+                <img src="{{url('/imgs/bg/ictcell-concept.png')}}" class="rounded" height="150" width="450" alt="ICT Cell Poster-1">
+            </div>
+
+            <div>
+                <img src="{{url('/imgs/bg/ict-cell.png')}}" height="150" width="450" alt="ICT Cell Poster-1">
+            </div>
+        </div>
+        <div class="col-2"></div>
+</div>
+
 <div class="container lead" style="margin-top: 40px">
     <div class="row">
         <p class="fw-lighter text-center h2">Information and Communication Technology CELL (ICT CELL) - RUET</p>
