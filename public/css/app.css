@@ -1,5 +1,5 @@
 body{
-    /*background-image: url('/imgs/bg-img_1280.jpg'); */
+    background-image: url('/imgs/bg/white-light-abstract.png');
     /*background-color: red;*/
     background-position: center center;
     background-repeat: no-repeat;
@@ -16,4 +16,11 @@ body{
 
     .fl_margin{
         margin-top: -10px
+    }
+
+    .navb_style
+    {
+        background-image: url('/imgs/bg/picthai-dot.jpeg');
+        background-repeat: repeat;
+        /*background-color: rgba(0, 0, 0, 0.2);*/
     }

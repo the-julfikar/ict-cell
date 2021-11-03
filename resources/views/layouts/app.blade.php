@@ -29,8 +29,8 @@
 
     <!-- Nav Bar -->
     <div class="container lead">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid shadow p-1 mb-1 bg-white rounded">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navb_style shadow p-2 bg-white rounded">
+            <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="{{url('/imgs/ruet-hd.png')}}" width="50" height="47" alt="RUET">
                     ICT Cell-RUET
@@ -142,7 +142,7 @@
     <footer class="bg-light text-center text-lg-start">
         <!-- Copyr -->
         <div class="text-center p-3 fw-light fst-italic" style="background-color: rgba(0, 0, 0, 0.2);">
-          ©2021 Copyright: Developed & maintainted by <p class="fw-bold">ICT Cell-RUET.</p>
+          ©2021 Copyright: Developed & maintainted by ICT Cell-RUET.<!-- <p class="fw-bold">ICT Cell-RUET.</p> -->
         </div>
         <!-- Copyr -->
     </footer>
