@@ -28,21 +28,19 @@
             <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="members-tab" data-bs-toggle="tab" data-bs-target="#members"
-                        type="button" role="tab" aria-controls="members" aria-selected="true">Members</button>
+                        type="button" role="tab" aria-controls="members" aria-selected="true"><i class="bi bi-people-fill"></i> Members</button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="aboutus-tab" data-bs-toggle="tab" data-bs-target="#aboutus"
-                        type="button" role="tab" aria-controls="aboutus" aria-selected="false">About Us</button>
+                        type="button" role="tab" aria-controls="aboutus" aria-selected="false"><i class="bi bi-info-circle"></i> About Us</button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="netkengr-tab" data-bs-toggle="tab" data-bs-target="#netkengr"
-                        type="button" role="tab" aria-controls="netkengr" aria-selected="false">Network
-                        Engineers</button>
+                        type="button" role="tab" aria-controls="netkengr" aria-selected="false"><i class="bi bi-bag-check-fill"></i> Softwares</button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="labasst-tab" data-bs-toggle="tab" data-bs-target="#labasst"
-                        type="button" role="tab" aria-controls="labasst" aria-selected="false">Lab
-                        Assistant</button>
+                        type="button" role="tab" aria-controls="labasst" aria-selected="false"><i class="bi bi-check2-circle"></i> Service Request</button>
                 </li>
             </ul>
 
