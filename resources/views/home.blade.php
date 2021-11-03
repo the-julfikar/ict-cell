@@ -27,12 +27,12 @@
         <div class="col-10 shadow p-4 mb-4 bg-white rounded">
             <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="director-tab" data-bs-toggle="tab" data-bs-target="#director"
-                        type="button" role="tab" aria-controls="director" aria-selected="true">Director</button>
+                    <button class="nav-link active" id="members-tab" data-bs-toggle="tab" data-bs-target="#members"
+                        type="button" role="tab" aria-controls="members" aria-selected="true">Members</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="programmers-tab" data-bs-toggle="tab" data-bs-target="#programmers"
-                        type="button" role="tab" aria-controls="programmers" aria-selected="false">Programmers</button>
+                    <button class="nav-link" id="aboutus-tab" data-bs-toggle="tab" data-bs-target="#aboutus"
+                        type="button" role="tab" aria-controls="aboutus" aria-selected="false">About Us</button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="netkengr-tab" data-bs-toggle="tab" data-bs-target="#netkengr"
@@ -47,7 +47,7 @@
             </ul>
 
             <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="director" role="tabpanel" aria-labelledby="director-tab">
+                <div class="tab-pane fade show active" id="members" role="tabpanel" aria-labelledby="members-tab">
                     <figure>
                         <blockquote class="blockquote">
                             <p>Prof. Dr. Md. Al Mamun</p>
@@ -76,10 +76,8 @@
                             <cite><i class="bi bi-phone"></i> +8801712622764</cite>
                         </figcaption>
                     </figure>
-                </div>
-
-
-                <div class="tab-pane fade" id="programmers" role="tabpanel" aria-labelledby="programmers-tab">
+                    <hr class="my-4">
+                    <!-- PROGRAMMERS -->
                     <div class="d-flex justify-content-between">
                         <div>
                             <figure>
@@ -127,9 +125,8 @@
                             </figure>
                         </div>
                     </div>
-                </div>
-
-                <div class="tab-pane fade" id="netkengr" role="tabpanel" aria-labelledby="netkengr-tab">
+                    <hr class="my-4">
+                    <!-- NETWK ENGRS -->
                     <div class="d-flex justify-content-between">
                         <div>
                             <figure>
@@ -179,9 +176,9 @@
                             </figure>
                         </div>
                     </div>
-                </div>
 
-                <div class="tab-pane fade" id="labasst" role="tabpanel" aria-labelledby="labasst-tab">
+                    <hr class="my-4">
+                    <!-- Lab Asst. -->
                     <div class="d-flex justify-content-between">
                         <div>
                             <figure>
@@ -206,7 +203,32 @@
                             </figure>
                         </div>
                     </div>
+
                 </div>
+
+
+                <div class="tab-pane fade" id="aboutus" role="tabpanel" aria-labelledby="aboutus-tab">
+
+                    <div class="jumbotron">
+                        <h1 class="display-4">ICT Cell</h1>
+                        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                        <hr class="my-4">
+                        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                        <p class="lead">
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="tab-pane fade" id="netkengr" role="tabpanel" aria-labelledby="netkengr-tab">
+                    
+                </div>
+
+                <div class="tab-pane fade" id="labasst" role="tabpanel" aria-labelledby="labasst-tab">
+                    
+                </div>
+
             </div>
 
         </div>
