@@ -29,7 +29,7 @@
 
     <!-- Nav Bar -->
     <div class="container lead">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light navb_style shadow p-2 bg-white rounded"> <!-- shadow p-4 mb-4 bg-white rounded -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navb_style shadow p-2 mb-2 bg-white rounded"> <!-- shadow p-4 mb-4 bg-white rounded | shadow p-2 bg-white rounded -->
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="{{url('/imgs/ruet-hd.png')}}" width="50" height="47" alt="RUET">
