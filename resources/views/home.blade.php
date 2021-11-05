@@ -209,11 +209,19 @@
 
                     <div class="jumbotron">
                         <h1 class="display-4">ICT Cell</h1>
-                        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                        <p>The ICT Cell at RUET is basically the central-support office that provides the university’s information and communication related digital services and facilities to 
+                            the students, faculty members and staffs. The ICT Cell is developed with a significant purpose of improving, deploying and strengthening creative and sustainable 
+                            technical solutions and services that will enrich and facilitate learning, teaching, research and management needs at RUET. The Cell aims to provide a one-stop digital 
+                            solutions to all the concerns at RUET.
+                        </p>
                         <hr class="my-4">
-                        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                        <p class="fs-6">
+                            ICT Cell provides centralized facility related to Automation Systems and Computer Network which includes maintenance of networking, web server, internet service, 
+                            website management, e-mail service management, hardware IT support and centralized data management of the university. We appreciate your suggestions for the 
+                            development/services of the ICT Cell.
+                        </p>
                         <p class="lead">
-                            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                            <a class="btn btn-primary btn-lg" href="https://ictd.gov.bd/" role="button">Learn more</a>
                         </p>
                     </div>
 
