@@ -20,7 +20,7 @@
 <div class="container">
     <div class="row mt-3">
         <div class="col-1"></div>
-        <div class="col-10 rounded">
+        <div class="col-10 shadow p-2 mb-2 rounded">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -32,8 +32,8 @@
                         <!-- <img src="{{url('/imgs/bg/ictcell-concept.png')}}" class="d-block w-100" height="400" width="800" alt="ICT-Cell-Concept"> -->
                         <img src="{{url('/imgs/bg/sliders/ict-bg-hd-2.jpg')}}" class="d-block w-100" height="400" width="800" alt="ICT-Cell-Concept">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>ICT Cell Concepts</h5>
-                            <p>Some elements of Information and Communication Technology (ICT) Cell.</p>
+                            <h5 class="text-warning">ICT Cell Concepts</h5>
+                            <p class="text-warning">Some elements of Information and Communication Technology (ICT) Cell.</p>
                         </div>
                     </div>
 
@@ -41,8 +41,8 @@
                         <!-- <img src="{{url('/imgs/bg/circuit-gear.jpeg')}}" class="d-block w-100" height="400" width="800" alt="..."> -->
                         <img src="{{url('/imgs/bg/sliders/ict-bg-hd.jpg')}}" class="d-block w-100" height="400" width="800" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>ICT Cell Interconnection</h5>
-                            <p>Connectivity of ICT Cell components.</p>
+                            <h5 class="text-warning">ICT Cell Interconnection</h5>
+                            <p class="text-warning">Connectivity of ICT Cell components.</p>
                         </div>
                     </div>
 
@@ -50,8 +50,8 @@
                         <!-- <img src="{{url('/imgs/bg/ict-cell.png')}}" class="d-block w-100" height="400" width="800" alt="..."> -->
                         <img src="{{url('/imgs/bg/sliders/ict-bg-hd-4.jpg')}}" class="d-block w-100" height="400" width="800" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>ICT Cell Symbol</h5>
-                            <p>The Symbol and accessibility of ICT Cell services.</p>
+                            <h5 class="text-dark">ICT Cell Symbol</h5>
+                            <p class="text-dark">The Symbol and accessibility of ICT Cell services.</p>
                         </div>
                     </div>
                 </div>
