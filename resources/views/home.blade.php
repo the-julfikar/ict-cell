@@ -1,21 +1,10 @@
 @extends('layouts.app')
 
-@section('contents')
-<!--
-<div class="row mt-3">
-    <div class="col-2"></div>
-    <div class="col-8 d-flex justify-content-start">
-        <div>
-            <img src="{{url('/imgs/bg/ictcell-concept.png')}}" class="rounded" height="150" width="450" alt="ICT Cell Poster-1">
-        </div>
+@push('css')
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/home.css') }}">
+@endpush
 
-        <div>
-            <img src="{{url('/imgs/bg/ict-cell.png')}}" height="150" width="450" alt="ICT Cell Poster-1">
-        </div>
-    </div>
-    <div class="col-2"></div>
-</div>
--->
+@section('contents')
 <!-- SLIDER -->
 <div class="container">
     <div class="row mt-3">
@@ -76,7 +65,7 @@
 
     <div class="row mt-3">
         <div class="col-1"></div>
-        <div class="col-10 shadow p-4 mb-4 bg-white rounded">
+        <div class="col-10 shadow p-4 mb-4 bg-white rounded bg-tab-set">
             <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="members-tab" data-bs-toggle="tab" data-bs-target="#members"

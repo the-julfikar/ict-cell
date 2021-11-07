@@ -15,6 +15,8 @@
     <!-- Custom-Stylesheets for the Page-->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
 
+    @stack('css')
+
     <title>ICT Cell-RUET</title>
 </head>
 
