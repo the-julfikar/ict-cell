@@ -1,20 +1,72 @@
 @extends('layouts.app')
 
 @section('contents')
+<!--
+<div class="row mt-3">
+    <div class="col-2"></div>
+    <div class="col-8 d-flex justify-content-start">
+        <div>
+            <img src="{{url('/imgs/bg/ictcell-concept.png')}}" class="rounded" height="150" width="450" alt="ICT Cell Poster-1">
+        </div>
 
+        <div>
+            <img src="{{url('/imgs/bg/ict-cell.png')}}" height="150" width="450" alt="ICT Cell Poster-1">
+        </div>
+    </div>
+    <div class="col-2"></div>
+</div>
+-->
+<!-- SLIDER -->
 <div class="container">
     <div class="row mt-3">
-        <div class="col-2"></div>
-        <div class="col-8 d-flex justify-content-start">
-            <div>
-                <img src="{{url('/imgs/bg/ictcell-concept.png')}}" class="rounded" height="150" width="450" alt="ICT Cell Poster-1">
-            </div>
+        <div class="col-1"></div>
+        <div class="col-10 rounded">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <!-- <img src="{{url('/imgs/bg/ictcell-concept.png')}}" class="d-block w-100" height="400" width="800" alt="ICT-Cell-Concept"> -->
+                        <img src="{{url('/imgs/bg/sliders/ict-bg-hd-2.jpg')}}" class="d-block w-100" height="400" width="800" alt="ICT-Cell-Concept">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>ICT Cell Concepts</h5>
+                            <p>Some elements of Information and Communication Technology (ICT) Cell.</p>
+                        </div>
+                    </div>
 
-            <div>
-                <img src="{{url('/imgs/bg/ict-cell.png')}}" height="150" width="450" alt="ICT Cell Poster-1">
+                    <div class="carousel-item">
+                        <!-- <img src="{{url('/imgs/bg/circuit-gear.jpeg')}}" class="d-block w-100" height="400" width="800" alt="..."> -->
+                        <img src="{{url('/imgs/bg/sliders/ict-bg-hd.jpg')}}" class="d-block w-100" height="400" width="800" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>ICT Cell Interconnection</h5>
+                            <p>Connectivity of ICT Cell components.</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <!-- <img src="{{url('/imgs/bg/ict-cell.png')}}" class="d-block w-100" height="400" width="800" alt="..."> -->
+                        <img src="{{url('/imgs/bg/sliders/ict-bg-hd-4.jpg')}}" class="d-block w-100" height="400" width="800" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>ICT Cell Symbol</h5>
+                            <p>The Symbol and accessibility of ICT Cell services.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
-        <div class="col-2"></div>
+        <div class="col-1"></div>
+    </div>
 </div>
 
 <div class="container lead" style="margin-top: 40px">
