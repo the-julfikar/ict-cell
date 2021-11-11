@@ -76,8 +76,8 @@
                         type="button" role="tab" aria-controls="aboutus" aria-selected="false"><i class="bi bi-info-circle"></i> About Us</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="netkengr-tab" data-bs-toggle="tab" data-bs-target="#netkengr"
-                        type="button" role="tab" aria-controls="netkengr" aria-selected="false"><i class="bi bi-bag-check-fill"></i> Softwares</button>
+                    <button class="nav-link" id="softw-tab" data-bs-toggle="tab" data-bs-target="#softw"
+                        type="button" role="tab" aria-controls="softw" aria-selected="false"><i class="bi bi-bag-check-fill"></i> Softwares</button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="labasst-tab" data-bs-toggle="tab" data-bs-target="#labasst"
@@ -268,8 +268,66 @@
 
                 </div>
 
-                <div class="tab-pane fade" id="netkengr" role="tabpanel" aria-labelledby="netkengr-tab">
-                    
+                <!-- Softwares -->
+                <div class="tab-pane fade" id="softw" role="tabpanel" aria-labelledby="softw-tab">
+                    <div class="container mt-3">
+                        <div class="row">
+                            <div class="col border">
+                                <div>
+                                    <p class="h5 text-center"><i class="bi bi-book"></i> <br> Post Graduate System</p>
+                                </div>
+                            </div>
+                            <div class="col border">
+                                <div>
+                                    <p class="h5 text-center"><i class="bi bi-building"></i> <br>RUET Jobs Portal</p>
+                                </div>
+                            </div>
+                            <div class="col border">
+                                <div>
+                                    <p class="h5 text-center"><i class="bi bi-bar-chart-fill"></i> <br>Undergraduate Results System</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col border">
+                                <div>
+                                    <p class="h5 text-center"><i class="bi bi-bank"></i> <br> Auditorium Automation</p>
+                                </div>
+                            </div>
+                            <div class="col border">
+                                <div>
+                                    <p class="h5 text-center"><i class="bi bi-bicycle"></i> <br> Transport Automation</p>
+                                </div>
+                            </div>
+                            <div class="col border">
+                                <div>
+                                    <p class="h5 text-center"><i class="bi bi-door-open"></i> <br> Guest House Auomation</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col border">
+                                <div>
+                                    <p class="h5 text-center"><i class="bi bi-card-checklist"></i> <br> HR Management System (HRMS)</p>
+                                </div>
+                            </div>
+                            <div class="col border">
+                                <div>
+                                    <p class="h5 text-center"><i class="bi bi-door-closed"></i> <br> Hall Management System</p>
+                                </div>
+                            </div>
+                            <div class="col border">
+                                <div>
+                                    <p class="h5 text-center"><i class="bi bi-textarea"></i> <br> Alumni Information Management</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    </div>
                 </div>
 
                 <div class="tab-pane fade" id="labasst" role="tabpanel" aria-labelledby="labasst-tab">
