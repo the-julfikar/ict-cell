@@ -49,6 +49,14 @@
                     <a href="#" class="btn btn-primary">Get the form.</a>
                 </div>
             </div>
+            <br>
+            <div class="card">
+                <h6 class="card-header">6. Data Management for Administration</h6>
+                <div class="card-body">
+                    <!-- <h5 class="card-title">Special title treatment</h5> -->
+                    <p class="card-text">Data management for RUET administration regarding UGC using Google Forms, Sheets and Microsoft Excel application.</p>
+                </div>
+            </div>
 
         </div>
         <div class="col-1"></div>
