@@ -104,6 +104,14 @@
                 </div>
                 <br>
                 <div class="form-group">
+                    <label for="name">Mobile No</label>
+                    <input type="text" class="form-control" id="mobile" name="mobile">
+                    @if ($errors->has('mobile'))
+                    <span class="text-danger">*{{ $errors->first('mobile') }}</span>
+                    @endif
+                </div>
+                <br>
+                <div class="form-group">
                     <label for="exampleFormControlTextarea1">Address</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" name="address"></textarea>
                 </div>

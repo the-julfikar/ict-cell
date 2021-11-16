@@ -88,13 +88,15 @@
             </ul>
 
             <div class="tab-content" id="myTabContent">
+                <br>
                 <div class="tab-pane fade show active" id="members" role="tabpanel" aria-labelledby="members-tab">
                     <figure>
+                    <img src="{{url('/imgs/members/director.jpg')}}" class="img-thumbnail" width="150" height="150" alt="PROF_DR_AL_MAMUN">
                         <blockquote class="blockquote">
                             <p>Prof. Dr. Md. Al Mamun</p>
                         </blockquote>
                         <figcaption class="blockquote-footer">
-                            <cite title="Source Title">Director, ICT Cell && Head, Dept. of CSE, RUET</cite>
+                            <cite title="Source Title">Director, ICT Cell && Head, Dept. of CSE | RUET</cite>
                             <br>
                             <br>
                             <cite>SMIEEE
@@ -122,6 +124,7 @@
                     <div class="d-flex justify-content-between">
                         <div>
                             <figure>
+                            <img src="{{url('/imgs/members/julfikar.jpg')}}" class="img-thumbnail" width="150" height="150" alt="MD_JULFIKAR_ISLAM_KHAN">
                                 <blockquote class="blockquote">
                                     <p>Engr. Md. Julfikar Islam</p>
                                 </blockquote>
@@ -145,6 +148,7 @@
 
                         <div>
                             <figure>
+                            <img src="{{url('/imgs/members/person.jpg')}}" class="img-thumbnail" width="150" height="150" alt="MD_JULFIKAR_ISLAM_KHAN">
                                 <blockquote class="blockquote">
                                     <p>Engr. Md. Manirul Islam</p>
                                 </blockquote>
@@ -152,8 +156,7 @@
                                     <cite title="Source Title">Assistant Programmmer, ICT Cell</cite>
                                     <br>
                                     <br>
-                                    <cite>Member, IEB
-                                        <br>
+                                    <cite>
                                         B. Sc. Engr. (CSE), RUET
                                     </cite>
                                     <br>
@@ -171,6 +174,7 @@
                     <div class="d-flex justify-content-between">
                         <div>
                             <figure>
+                            <img src="{{url('/imgs/members/person.jpg')}}" class="img-thumbnail" width="150" height="150" alt="MD_ASHIF_AL_AMIN">
                                 <blockquote class="blockquote">
                                     <p>Engr. Md. Ashif Al Amin</p>
                                 </blockquote>
@@ -196,6 +200,7 @@
 
                         <div>
                             <figure>
+                            <img src="{{url('/imgs/members/person.jpg')}}" class="img-thumbnail" width="150" height="150" alt="SAUMIK_SARKAR">
                                 <blockquote class="blockquote">
                                     <p>Engr. Saumik Sarkar</p>
                                 </blockquote>
@@ -223,6 +228,7 @@
                     <div class="d-flex justify-content-between">
                         <div>
                             <figure>
+                            <img src="{{url('/imgs/members/person.jpg')}}" class="img-thumbnail" width="150" height="150" alt="MD_SHAHNEWAZ_UDDIN_SHANTO">
                                 <blockquote class="blockquote">
                                     <p>Md. Shahnewaz Uddin (Shanto)</p>
                                 </blockquote>
