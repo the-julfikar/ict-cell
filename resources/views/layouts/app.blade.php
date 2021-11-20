@@ -124,7 +124,7 @@
                     </div>
 
                     <div>
-                        <a href="#" class=""><i class="bi bi-twitter"></i></a>
+                        <a href="#" class=""><i class="bi bi-youtube"></i></a>
                     </div>
 
                     <div>
