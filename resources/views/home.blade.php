@@ -228,7 +228,7 @@
                     <div class="d-flex justify-content-between">
                         <div>
                             <figure>
-                            <img src="{{url('/imgs/members/person.jpg')}}" class="img-thumbnail" width="150" height="150" alt="MD_SHAHNEWAZ_UDDIN_SHANTO">
+                            <img src="{{url('/imgs/members/shanto.jpg')}}" class="img-thumbnail" width="150" height="150" alt="MD_SHAHNEWAZ_UDDIN_SHANTO">
                                 <blockquote class="blockquote">
                                     <p>Md. Shahnewaz Uddin (Shanto)</p>
                                 </blockquote>

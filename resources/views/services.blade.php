@@ -57,6 +57,13 @@
                     <p class="card-text">Data management for RUET administration regarding UGC using Google Forms, Sheets and Microsoft Excel application.</p>
                 </div>
             </div>
+            <br>
+            <div class="card">
+                <h6 class="card-header">8. Close Circuit (CC) camera server monitoring and management.</h6>
+                <div class="card-body">
+                    <p class="card-text">Technical maintenace and operations of CC camera server for RUET administration.</p>
+                </div>
+            </div>
 
         </div>
         <div class="col-1"></div>
