@@ -18,7 +18,7 @@
 
             <p class="fw-lighter text-center h2">Complain Portal, ICT Cell.</p>
 
-            <form action="registration" method="POST">
+            <form action="addComplain" method="POST">
                 @csrf
                 <div class="form-group">
                     <label for="name">Full Name</label>
@@ -64,6 +64,9 @@
                         <option>ADMIN-RUET</option>
                         <option>OTHERS</option>
                     </select>
+                    @if ($errors->has('dept'))
+                    <span class="text-danger">*{{ $errors->first('dept') }}</span>
+                    @endif
                 </div>
                 <br>
                 <div class="form-group">
@@ -101,11 +104,14 @@
                         <option>Employee-4</option>
                         <option>OTHERS</option>
                     </select>
+                    @if ($errors->has('designation'))
+                    <span class="text-danger">*{{ $errors->first('designation') }}</span>
+                    @endif
                 </div>
                 <br>
                 <div class="form-group">
                     <label for="name">Mobile No</label>
-                    <input type="text" class="form-control" id="mobile" name="mobile">
+                    <input type="text" class="form-control" placeholder="01xxxxxxxxx" id="mobile" name="mobile">
                     @if ($errors->has('mobile'))
                     <span class="text-danger">*{{ $errors->first('mobile') }}</span>
                     @endif
@@ -113,12 +119,19 @@
                 <br>
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">Address</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" name="address"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" name="address" 
+                    placeholder="e.g. Adming Building (Level-3)."></textarea>
+                    @if ($errors->has('address'))
+                    <span class="text-danger">*{{ $errors->first('address') }}</span>
+                    @endif
                 </div>
                 <br>
                 <div class="form-group">
                     <label for="complain_desc">Complaint Details</label>
                     <textarea class="form-control" id="complain_desc" rows="4" name="complain_details"></textarea>
+                    @if ($errors->has('complain_details'))
+                    <span class="text-danger">*{{ $errors->first('complain_details') }}</span>
+                    @endif
                 </div>
                 <br>
                 <div class="row">
@@ -128,25 +141,28 @@
                     <div class="col-10">
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="prob_category" id="inlineRadio1"
-                                value="option1"> <!-- inlineRadioOptions -->
+                                value="Softw-Support"> <!-- inlineRadioOptions -->
                             <label class="form-check-label" for="inlineRadio1">Software Support</label>
                         </div>
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="prob_category" id="inlineRadio2"
-                                value="option2">
+                                value="Hardw-Support">
                             <label class="form-check-label" for="inlineRadio2">Hardware Support</label>
                         </div>
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="prob_category" id="inlineRadio3"
-                                value="option3">
+                                value="Netk-Support">
                             <label class="form-check-label" for="inlineRadio3">Network Support</label>
                         </div>
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="prob_category" id="inlineRadio4"
-                                value="option4">
+                                value="OTHERS">
                             <label class="form-check-label" for="inlineRadio4">OTHERS</label>
                         </div>
                     </div>
+                    @if ($errors->has('prob_category'))
+                    <span class="text-danger">*{{ $errors->first('prob_category') }}</span>
+                    @endif
                 </div>
                 <br>
                 <button type="submit" class="btn btn-secondary" style="width: 100%">Submit</button>

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ComplainController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,3 +35,6 @@ Route::get('/cell-complain', function () {
 Route::get('/cell-services', function () {
     return view('services');
 });
+
+//Adding Controllers
+Route::post('addComplain',[ComplainController::class,'addComplain']);
