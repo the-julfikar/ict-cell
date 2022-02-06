@@ -113,8 +113,7 @@
                             </cite>
                             <br>
                             <br>
-                            <cite><i class="bi bi-google"></i> director@ictcell.ruet.ac.bd | a.mamun@cse.ruet.ac.bd |
-                                almamun00350@gmail.com</cite>
+                            <cite><i class="bi bi-google"></i> director@ictcell.ruet.ac.bd | a.mamun@cse.ruet.ac.bd</cite>
                             <br>
                             <cite><i class="bi bi-phone"></i> +8801712622764</cite>
                         </figcaption>
@@ -132,14 +131,7 @@
                                     <cite title="Source Title">Assistant Computer Programmmer, ICT Cell</cite>
                                     <br>
                                     <br>
-                                    <cite>Member, IEB
-                                        <br>
-                                        B. Sc. Engr. (CSE), KUET
-                                    </cite>
-                                    <br>
-                                    <br>
-                                    <cite><i class="bi bi-google"></i> julfikar.islam@ictcell.ruet.ac.bd |
-                                        julfikar.islam.khan@gmail.com</cite>
+                                    <cite><i class="bi bi-google"></i> julfikar.islam@ictcell.ruet.ac.bd</cite>
                                     <br>
                                     <cite><i class="bi bi-phone"></i> +8801833182066</cite>
                                 </figcaption>
@@ -156,13 +148,7 @@
                                     <cite title="Source Title">Assistant Programmmer, ICT Cell</cite>
                                     <br>
                                     <br>
-                                    <cite>
-                                        B. Sc. Engr. (CSE), RUET
-                                    </cite>
-                                    <br>
-                                    <br>
-                                    <cite><i class="bi bi-google"></i> manirul.islam@ictcell.ruet.ac.bd |
-                                        monirul.ruet12@gmail.com</cite>
+                                    <cite><i class="bi bi-google"></i> manirul.islam@ictcell.ruet.ac.bd</cite>
                                     <br>
                                     <cite><i class="bi bi-phone"></i> +8801765707808</cite>
                                 </figcaption>
@@ -182,16 +168,7 @@
                                     <cite title="Source Title">Assistant Network Engineer, ICT Cell</cite>
                                     <br>
                                     <br>
-                                    <cite>Member, IEB
-                                        <br>
-                                        B. Sc. Engr. (CSE), RUET
-                                        <br>
-                                        M. Sc. Engr. (CSE), University of Greenwinch, London, UK.
-                                    </cite>
-                                    <br>
-                                    <br>
-                                    <cite><i class="bi bi-google"></i> ashif.amin@ictcell.ruet.ac.bd |
-                                        ashif.ruet@gmail.com</cite>
+                                    <cite><i class="bi bi-google"></i> ashif.amin@ictcell.ruet.ac.bd</cite>
                                     <br>
                                     <cite><i class="bi bi-phone"></i> +8801818301135</cite>
                                 </figcaption>
@@ -208,14 +185,7 @@
                                     <cite title="Source Title">Assistant Network Engineer, ICT Cell</cite>
                                     <br>
                                     <br>
-                                    <cite>Member, IEB
-                                        <br>
-                                        B. Sc. Engr. (EEE), AIUB
-                                    </cite>
-                                    <br>
-                                    <br>
-                                    <cite><i class="bi bi-google"></i> saumik.sarkar@ictcell.ruet.ac.bd |
-                                        saumik.sr29@gmail.com</cite>
+                                    <cite><i class="bi bi-google"></i> saumik.sarkar@ictcell.ruet.ac.bd</cite>
                                     <br>
                                     <cite><i class="bi bi-phone"></i> +8801770702027</cite>
                                 </figcaption>
@@ -236,14 +206,7 @@
                                     <cite title="Source Title">Lab Assistant, ICT Cell</cite>
                                     <br>
                                     <br>
-                                    <cite>Member, IDEB
-                                        <br>
-                                        Diploma in CSE, Bangladesh Polytechnic Institute-Rajshahi.
-                                    </cite>
-                                    <br>
-                                    <br>
-                                    <cite><i class="bi bi-google"></i> shahnewaz.uddin@ictcell.ruet.ac.bd |
-                                        shahnewaz20@gmail.com</cite>
+                                    <cite><i class="bi bi-google"></i> shahnewaz.uddin@ictcell.ruet.ac.bd</cite>
                                     <br>
                                     <cite><i class="bi bi-phone"></i> +8801613285768</cite>
                                 </figcaption>

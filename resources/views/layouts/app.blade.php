@@ -77,7 +77,7 @@
                     
                     <form class="d-flex">
                         <!-- <button class="btn btn-outline-success me-2" type="submit">Admin Console</button> -->
-                        <button type="button" class="btn btn-outline-success me-2">
+                        <button type="button" class="btn btn-outline-success me-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <i class="bi bi-person-bounding-box"></i>  Admin Console
                         </button>
                     </form>
@@ -88,6 +88,24 @@
     </div>
 
     @yield('contents')
+
+    <!-- Modal for POPup -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"><i class="bi bi-server"></i> POPup message from ICT Cell.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    The required feature/link is not addded till now in the system/under development phase.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Footers -->
     <div class="container lead" style="margin-top: 40px;">
@@ -109,30 +127,31 @@
 
             <div>
                 <p class="font-monospace">Featured Links</p>
-                <p class="fw-light fs-6"><a href="#" class="link-secondary">Honorable Vice-Chancellor</a></p>
-                <p class="fw-light fs-6 fl_margin"><a href="#" class="link-secondary">Vice-Chancellor's Office</a></p>
-                <p class="fw-light fs-6 fl_margin"><a href="#" class="link-secondary">Registrar's Office</a></p>
-                <p class="fw-light fs-6 fl_margin"><a href="#" class="link-secondary">Comptroller's Office</a></p>
-                <p class="fw-light fs-6 fl_margin"><a href="#" class="link-secondary">Directorate of Student's Welfare</a></p>
+                <p class="fw-light fs-6"><a href="https://www.ruet.ac.bd/message/vice-chancellor" class="link-secondary">Honorable Vice-Chancellor</a></p>
+                <p class="fw-light fs-6 fl_margin"><a href="https://www.ruet.ac.bd/list/office-of-the-vice-chancellor" class="link-secondary">Vice-Chancellor's Office</a></p>
+                <p class="fw-light fs-6 fl_margin"><a href="https://www.ruet.ac.bd/list/office-of-the-registrar" class="link-secondary">Registrar's Office</a></p>
+                <p class="fw-light fs-6 fl_margin"><a href="https://www.ruet.ac.bd/list/office-of-the-comptroller" class="link-secondary">Comptroller's Office</a></p>
+                <p class="fw-light fs-6 fl_margin"><a href="https://www.ruet.ac.bd/list/office-of-the-chief-engineer" class="link-secondary">Chief Engineer's Office</a></p>
+                <p class="fw-light fs-6 fl_margin"><a href="https://www.ruet.ac.bd/section_details/central-computer-center" class="link-secondary">Central Computer Center</a></p>
             </div>
 
             <div>
                 <p class="font-monospace">Social Links</p>
                 <div class="d-flex justify-content-between">
                     <div>
-                        <a href="#" class=""><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-facebook"></i></a>
                     </div>
 
                     <div>
-                        <a href="#" class=""><i class="bi bi-youtube"></i></a>
+                        <a href="#" class="" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-youtube"></i></a>
                     </div>
 
                     <div>
-                        <a href="#" class=""><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-linkedin"></i></a>
                     </div>
 
                     <div>
-                        <a href="#" class=""><i class="bi bi-house-fill"></i></a>
+                        <a href="https://www.ruet.ac.bd/" class=""><i class="bi bi-house-fill"></i></a>
                     </div>
                 </div>
             </div>
