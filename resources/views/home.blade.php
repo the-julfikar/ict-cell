@@ -140,7 +140,7 @@
 
                         <div>
                             <figure>
-                            <img src="{{url('/imgs/members/person.jpg')}}" class="img-thumbnail" width="150" height="150" alt="MD_JULFIKAR_ISLAM_KHAN">
+                            <img src="{{url('/imgs/members/monir.jpg')}}" class="img-thumbnail" width="150" height="150" alt="MD_JULFIKAR_ISLAM_KHAN">
                                 <blockquote class="blockquote">
                                     <p>Engr. Md. Manirul Islam</p>
                                 </blockquote>
@@ -160,7 +160,7 @@
                     <div class="d-flex justify-content-between">
                         <div>
                             <figure>
-                            <img src="{{url('/imgs/members/person.jpg')}}" class="img-thumbnail" width="150" height="150" alt="MD_ASHIF_AL_AMIN">
+                            <img src="{{url('/imgs/members/shafi.jfif')}}" class="img-thumbnail" width="150" height="150" alt="MD_ASHIF_AL_AMIN">
                                 <blockquote class="blockquote">
                                     <p>Engr. Md. Ashif Al Amin</p>
                                 </blockquote>
