@@ -245,17 +245,17 @@
                         <div class="row">
                             <div class="col border hover-styles">
                                 <div>
-                                    <p class="h5 text-center"><i class="bi bi-book"></i> <br> Post Graduate System</p>
+                                    <p class="h5 text-center"><i class="bi bi-bar-chart-fill"></i> <br><a href="https://www.ug.ruet.ac.bd" class="link-secondary">Undergraduate Results System</a></p>
                                 </div>
                             </div>
                             <div class="col border hover-styles">
                                 <div>
-                                    <p class="h5 text-center"><i class="bi bi-building"></i> <br>RUET Jobs Portal</p>
+                                    <p class="h5 text-center"><i class="bi bi-book"></i> <br><a href="https://www.pg.ruet.ac.bd" class="link-secondary">Post Graduate System</a></p>
                                 </div>
                             </div>
                             <div class="col border hover-styles">
                                 <div>
-                                    <p class="h5 text-center"><i class="bi bi-bar-chart-fill"></i> <br>Undergraduate Results System</p>
+                                    <p class="h5 text-center"><i class="bi bi-building"></i> <br><a href="https://www.jobs.ruet.ac.bd" class="link-secondary">RUET Jobs Portal</a></p>
                                 </div>
                             </div>
                         </div>
