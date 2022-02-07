@@ -17,7 +17,7 @@ class ComplainController extends Controller
             'email' => 'required|email|max:40',
             'dept' => 'required',
             'designation' => 'required',
-            'mobile' => 'required|max:11',
+            'mobile' => 'required|regex:/(01)[0-9]{9}/|max:11',
             'address' => 'required|max:35',
             'complain_details' => 'required|max:70',
             'prob_category' => 'required'
@@ -35,7 +35,6 @@ class ComplainController extends Controller
         $complain->address=$requests->address;
         $complain->complain_details=$requests->complain_details;
         $complain->prob_category=$requests->prob_category;
-        //$complain->prob_category=Input.get('prob_category');
 
         //print($requests);
 

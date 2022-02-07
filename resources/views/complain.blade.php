@@ -41,7 +41,7 @@
                     <label for="exampleFormControlSelect1">Department</label>
                     <select class="form-control" id="exampleFormControlSelect1" name="dept">
                         <!-- form-control -->
-                        <option>Select dept.</option>
+                        <option value="">Select dept.</option>
                         <option>EEE</option>
                         <option>CSE</option>
                         <option>ECE</option>
@@ -73,7 +73,7 @@
                     <label for="designation">Designation</label>
                     <select class="form-control" id="designation" name="designation">
                         <!-- form-control -->
-                        <option>Select designation.</option>
+                        <option value="">Select designation.</option>
                         <option>Professor</option>
                         <option>Associate Professor</option>
                         <option>Assistant Professor</option>
@@ -141,17 +141,17 @@
                     <div class="col-10">
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="prob_category" id="inlineRadio1"
-                                value="Softw-Support"> <!-- inlineRadioOptions -->
+                                value="Softw"> <!-- inlineRadioOptions -->
                             <label class="form-check-label" for="inlineRadio1">Software Support</label>
                         </div>
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="prob_category" id="inlineRadio2"
-                                value="Hardw-Support">
+                                value="Hardw">
                             <label class="form-check-label" for="inlineRadio2">Hardware Support</label>
                         </div>
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="prob_category" id="inlineRadio3"
-                                value="Netk-Support">
+                                value="Netk">
                             <label class="form-check-label" for="inlineRadio3">Network Support</label>
                         </div>
                         <div class="form-check form-check-inline">
